@@ -10,11 +10,11 @@
           </p>
         </div>
         <NuxtLink
-          to="/Linktree"
+          to="/Competition"
           class="inline-block bg-white font-semibold text-base px-10 py-4 rounded-full hover:opacity-90 hover:-translate-y-0.5 transition-all flex-shrink-0"
           style="color: #8B1A1A;"
         >
-          Go to Linktree
+          Go to Competition Registration
         </NuxtLink>
       </div>
     </section>
