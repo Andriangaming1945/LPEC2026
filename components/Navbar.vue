@@ -20,7 +20,7 @@ const contacts = [
 </script>
 
 <template>
-  <nav class="fixed top-0 right-0 z-50 px-8 py-5">
+  <nav class="fixed top-35 inset-x-0 flex justify-center z-50 px-1 py-5">
     <div class="flex items-center justify-between">
 
       <!-- Desktop nav -->
@@ -102,7 +102,7 @@ const contacts = [
 
       <!-- Mobile hamburger -->
       <button
-        class="md:hidden text-white p-2.5 rounded-full bg-white/10 border border-white/20"
+        class="md:hidden ml-auto text-white p-2.5 rounded-full bg-white/10 border border-white/20"
         @click="isOpen = !isOpen"
       >
         <transition
