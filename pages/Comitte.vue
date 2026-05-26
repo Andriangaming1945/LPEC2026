@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import DivisionSection from '~/components/DivisionSection.vue';
+
+</script>
+
 <template>
     <Background>
       <Navbar></Navbar>
@@ -150,7 +155,7 @@
           </div>
   
         </div>
-        
+        <DivisionSection />
       </section>
       <Footer1></Footer1>
     </Background>
